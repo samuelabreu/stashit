@@ -1,3 +1,5 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/samuelabreu/stashit/tests?style=flat-square)
+
 # Stash It
 
 git stash command for non-repo files.
