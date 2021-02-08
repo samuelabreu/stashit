@@ -1,0 +1,31 @@
+name: stashit
+version: "0.1"
+author: Samuel Abreu <samuel@abreu.eti.br>
+about: Stash command for non-repo files
+args:
+    - list:
+        short: l
+        long: list
+        takes_value: false
+        help: List files currently stashed
+    - input:
+        multiple: true
+        takes_value: true
+        help: Files to stash
+    - keep:
+        short: k
+        long: keep
+        takes_value: false
+        help: Keep files when stashing
+    - pop:
+        short: p
+        long: pop
+        takes_value: true
+        default_value: "0"
+        help: Recover Nth entry from stash and exclude from list
+    - remove:
+        short: r
+        long: remove 
+        takes_value: true
+        help: Remove Nth entry from stash
+
